@@ -1,0 +1,23 @@
+function displayHere(){
+
+    let userInsert = document.querySelector("#userName").value;
+    let emailInsert = document.querySelector("#email").vlaue;
+    let password = document.querySelector("#pass").value;
+
+    const newElement = document.querySelector("#referenceBox").cloneNode(true);
+
+    newElement.removeAttribute("id");
+    newElement.style.visibility = "visible";
+    newElement.Children[0].innerHTML = userInsert;
+    newElement.Children[1].innerHTML = emailInsert;
+    newElement.Children[2].innerHTML = password;
+
+    const displayBox = document.querySelector("#displayBox");
+    document.querySelector("#userName").value ="";
+    document.querySelector("#email").value ="";
+    document.querySelector("#pass").value ="";
+}
+
+function deleteRow(element){
+    element.parentElement.remove();
+})

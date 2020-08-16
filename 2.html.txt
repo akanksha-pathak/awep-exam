@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>test</title>
+    <style>
+        .back{
+            background:url("https://picsum.photos/200/300?grayscale");
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size:cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid back">
+        <div class="row bg-secondary sticky-top" style="height:65px">
+            <div class="col-4 col-md-2 text-white " style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:26px; padding-top: 10px;">HOME</div>
+            <div class="col-1 col-md-8 text-white"></div>
+            <div class="col-3 col-md-1 text-white"style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:26px; padding-top: 10px;">SignIn</div>
+            <div class="col-4 col-md-1 text-white" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:26px; padding-top: 10px;">LogIn</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center bg-danger"
+                 style="height:200px; margin-top: 40px;border-radius:20px; font-size:52px; 
+                        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Sample Text
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center bg-danger"
+                 style="height:200px; margin-top: 40px;border-radius:20px; font-size:52px; 
+                        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Sample Text
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center bg-danger"
+                 style="height:200px; margin-top: 40px;border-radius:20px; font-size:52px; 
+                        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Sample Text
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center bg-danger"
+                 style="height:200px; margin-top: 40px;border-radius:20px; font-size:52px; 
+                        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Sample Text
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center bg-danger"
+                 style="height:200px; margin-top: 40px;border-radius:20px; font-size:52px; 
+                        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Sample Text
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center bg-danger"
+                 style="height:200px; margin-top: 40px;border-radius:20px; font-size:52px; 
+                        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Sample Text
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</body>
+</html>
